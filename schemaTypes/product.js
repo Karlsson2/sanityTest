@@ -23,6 +23,9 @@ export const Product = {
       name: 'image',
       title: 'Image',
       type: 'image',
+      options: {
+        hotspot: true, // <-- Defaults to false
+      },
     },
     {
       name: 'price',
